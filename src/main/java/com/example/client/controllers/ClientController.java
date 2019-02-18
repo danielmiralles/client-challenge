@@ -26,7 +26,7 @@ public class ClientController {
         return clientService.list();
     }
 
-    @GetMapping(path = "api/client/kpi")
+    @GetMapping(path = "kpi")
     public ClientKpiDTO calculateKpi() {
         return clientService.calculateKpi();
     }
